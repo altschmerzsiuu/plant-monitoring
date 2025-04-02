@@ -5,7 +5,7 @@ function scrollToSection(sectionId) {
         top: section.offsetTop - 70,
         behavior: 'smooth'
     });
-    
+
     // Update active button
     document.querySelectorAll('.nav-button').forEach(btn => {
         btn.classList.remove('active');
@@ -14,10 +14,10 @@ function scrollToSection(sectionId) {
 }
 
 // Change nav button style on scroll
-window.addEventListener('scroll', function() {
+window.addEventListener('scroll', function () {
     const sections = document.querySelectorAll('.section');
     const navButtons = document.querySelectorAll('.nav-button');
-    
+
     let currentSection = '';
     sections.forEach(section => {
         const sectionTop = section.offsetTop;
@@ -25,10 +25,10 @@ window.addEventListener('scroll', function() {
             currentSection = section.getAttribute('id');
         }
     });
-    
+
     navButtons.forEach(btn => {
         btn.classList.remove('active');
-        if (btn.textContent.toLowerCase().includes(currentSection) || 
+        if (btn.textContent.toLowerCase().includes(currentSection) ||
             (currentSection === 'welcome' && btn.textContent.toLowerCase().includes('home'))) {
             btn.classList.add('active');
         }
@@ -36,6 +36,6 @@ window.addEventListener('scroll', function() {
 });
 
 // Initialize - highlight first nav button
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
     document.querySelector('.nav-button').classList.add('active');
 });
