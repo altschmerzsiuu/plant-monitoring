@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,12 +8,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <!-- Fixed Navigation -->
     <nav class="navbar">
         <button class="nav-button active" onclick="scrollToSection('welcome')">Home</button>
-        <button class="nav-button" onclick="scrollToSection('graphs')">Graphs</button>
         <button class="nav-button" onclick="scrollToSection('detailed')">Detailed Metrics</button>
+        <button class="nav-button" onclick="scrollToSection('graphs')">Graphs</button>
         <button class="nav-button" onclick="scrollToSection('copyright')">About</button>
     </nav>
 
@@ -21,16 +23,20 @@
         <section id="welcome" class="section welcome-section fade-in">
             <h1>🌱 Welcome to Our Plant Monitoring System</h1>
             <div class="wix-content">
-                <p>We are using ThingSpeak to monitor our plants' health in real time. Our system collects essential environmental data, including:</p>
+                <p>We are using ThingSpeak to monitor our plants' health in real time. Our system collects essential
+                    environmental data, including:</p>
                 <p>✅ Water Level<br>
-                ✅ Light Intensity<br>
-                ✅ Temperature</p>
+                    ✅ Light Intensity<br>
+                    ✅ Temperature</p>
                 <p>In addition to these, we analyze and calculate:<br>
-                📊 Plant Comfort Index – Measures overall plant well-being<br>
-                💧 Water Need Index – Indicates if the plant needs watering<br>
-                ☀️ Light Utilization Index – Evaluates how efficiently the plant uses available light</p>
-                <p>Feel free to explore our <a href="https://thingspeak.mathworks.com/channels/2879696" target="_blank">ThingSpeak channel</a> to check out live data and insights, 
-                    as well as our <a href="https://docs.google.com/presentation/d/1jcmFCaf1WxV2TXvyaqcwFajDyTbKGXMlH4MCMDlXzIQ/edit?usp=sharing" target="_blank">Presentation Slides</a> for more details. 🌿🔍</p>
+                    📊 Plant Comfort Index – Measures overall plant well-being<br>
+                    💧 Water Need Index – Indicates if the plant needs watering<br>
+                    ☀️ Light Utilization Index – Evaluates how efficiently the plant uses available light</p>
+                <p>Feel free to explore our <a href="https://thingspeak.mathworks.com/channels/2879696"
+                        target="_blank">ThingSpeak channel</a> to check out live data and insights,
+                    as well as our <a
+                        href="https://docs.google.com/presentation/d/1jcmFCaf1WxV2TXvyaqcwFajDyTbKGXMlH4MCMDlXzIQ/edit?usp=sharing"
+                        target="_blank">Presentation Slides</a> for more details. 🌿🔍</p>
             </div>
         </section>
 
@@ -42,52 +48,88 @@
             <div class="graph-container">
                 <!-- Graph 1 -->
                 <div class="graph-box">
-                    <a href="https://thingspeak.com/channels/2879696/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15" target="_blank">
+                    <a href="https://thingspeak.com/channels/2879696/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15"
+                        target="_blank">
                         <h3>Field 1: Plant Comfort Index</h3>
                     </a>
-                    <iframe src="https://thingspeak.com/channels/2879696/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15"></iframe>
+                    <iframe
+                        src="https://thingspeak.com/channels/2879696/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15"></iframe>
                 </div>
 
                 <!-- Graph 2 -->
                 <div class="graph-box">
-                    <a href="https://thingspeak.com/channels/2879696/charts/2?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15" target="_blank">
+                    <a href="https://thingspeak.com/channels/2879696/charts/2?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15"
+                        target="_blank">
                         <h3>Field 2: Water Level</h3>
                     </a>
-                    
-                    <iframe src="https://thingspeak.com/channels/2879696/charts/2?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15"></iframe>
+
+                    <iframe
+                        src="https://thingspeak.com/channels/2879696/charts/2?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15"></iframe>
                 </div>
-                
+
                 <!-- Graph 3 -->
                 <div class="graph-box">
-                    <a href="https://thingspeak.com/channels/2879696/charts/3?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15" target="_blank">
+                    <a href="https://thingspeak.com/channels/2879696/charts/3?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15"
+                        target="_blank">
                         <h3>Field 3: Light Density</h3>
                     </a>
-                    
-                    <iframe src="https://thingspeak.com/channels/2879696/charts/3?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15"></iframe>
+
+                    <iframe
+                        src="https://thingspeak.com/channels/2879696/charts/3?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15"></iframe>
                 </div>
-                
+
                 <!-- Graph 4 -->
                 <div class="graph-box">
-                    <a href="https://thingspeak.com/channels/2879696/charts/4?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15" target="_blank">
+                    <a href="https://thingspeak.com/channels/2879696/charts/4?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15"
+                        target="_blank">
                         <h3>Field 4: Water Need Index</h3>
                     </a>
-                    <iframe src="https://thingspeak.com/channels/2879696/charts/4?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15"></iframe>
+                    <iframe
+                        src="https://thingspeak.com/channels/2879696/charts/4?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15"></iframe>
                 </div>
-                
+
                 <!-- Graph 5 -->
                 <div class="graph-box">
-                    <a href="https://thingspeak.com/channels/2879696/charts/5?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15" target="_blank">
+                    <a href="https://thingspeak.com/channels/2879696/charts/5?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15"
+                        target="_blank">
                         <h3>Field 5: Light Utilization Index</h3>
                     </a>
-                    <iframe src="https://thingspeak.com/channels/2879696/charts/5?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15"></iframe>
+                    <iframe
+                        src="https://thingspeak.com/channels/2879696/charts/5?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15"></iframe>
                 </div>
-                
+
                 <!-- Graph 6 -->
                 <div class="graph-box">
-                    <a href="https://thingspeak.com/channels/2879696/charts/6?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15" target="_blank">
+                    <a href="https://thingspeak.com/channels/2879696/charts/6?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15"
+                        target="_blank">
                         <h3>Field 6: Temperature</h3>
                     </a>
-                    <iframe src="https://thingspeak.com/channels/2879696/charts/6?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15"></iframe>
+                    <iframe
+                        src="https://thingspeak.com/channels/2879696/charts/6?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15"></iframe>
+                </div>
+
+                <!-- Graph 7 -->
+                <div class="graph-box">
+                    <a href="https://thingspeak.com/apps/matlab_visualizations/614582" target="_blank">
+                        <h3>Field 7: 14 Days Plant Comfort Index</h3>
+                    </a>
+                    <iframe src="https://thingspeak.com/apps/matlab_visualizations/614582"></iframe>
+                </div>
+
+                <!-- Graph 8 -->
+                <div class="graph-box">
+                    <a href="https://thingspeak.com/apps/matlab_visualizations/614586" target="_blank">
+                        <h3>Field 8: 14 Days Water Need Index</h3>
+                    </a>
+                    <iframe src="https://thingspeak.com/apps/matlab_visualizations/614586"></iframe>
+                </div>
+
+                <!-- Graph 9 -->
+                <div class="graph-box">
+                    <a href="https://thingspeak.com/apps/matlab_visualizations/614587" target="_blank">
+                        <h3>Field 9: 14 Days Light Utilization Index</h3>
+                    </a>
+                    <iframe src="https://thingspeak.com/apps/matlab_visualizations/614587"></iframe>
                 </div>
             </div>
         </section>
@@ -105,7 +147,7 @@
                     </a>
                     <iframe src="https://thingspeak.com/apps/matlab_visualizations/613994"></iframe>
                 </div>
-                
+
                 <!-- Graph 2 -->
                 <div class="graph-box">
                     <a href="https://thingspeak.com/apps/matlab_visualizations/613991" target="_blank">
@@ -113,11 +155,11 @@
                     </a>
                     <iframe src="https://thingspeak.com/apps/matlab_visualizations/613991"></iframe>
                 </div>
-                
+
                 <!-- Graph 3 -->
                 <div class="graph-box">
                     <a href="https://thingspeak.com/apps/matlab_visualizations/613995" target="_blank">
-                        <h3>Light Density Visualization</h3>
+                        <h3>Light Utilization Visualization</h3>
                     </a>
                     <iframe src="https://thingspeak.com/apps/matlab_visualizations/613995"></iframe>
                 </div>
@@ -135,4 +177,5 @@
     </div>
     <script src="script.js"></script>
 </body>
+
 </html>
